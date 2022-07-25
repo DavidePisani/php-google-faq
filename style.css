@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans', sans-serif;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header{
+    height: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.google{
+    padding: 10px;
+}
+
+.google img{
+    height: 40px;
+}
+
+.google > span{
+    vertical-align: super;
+}
+
+.title{
+    font-size: 30px;
+    line-height: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding-inline: 20px;
+    
+}
+
+.blue{
+    color: #527edc;
+    border-bottom: 3px solid blue;
+    height: 30px;
+}
+
+.box{
+    width: 60%;
+    margin: 0 auto;
+    padding-block: 30px;
+}
+
+h2{
+    padding-bottom: 10px;
+}
